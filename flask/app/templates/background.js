@@ -1,31 +1,3 @@
-// chrome.browserAction.onClicked.addListener(function(){
-//     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
-//     	let search_box = document.getElementsByClassName("gLFyf gsfi");
-//         chrome.tabs.sendMessage(tabs[0].id,"toggle");
-//     })
-// });
-// chrome.runtime.onMessage.addListener(
-//     function(request, sender, sendResponse) {
-//       if (request.contentScriptQuery == 'queryPrice') {
-//         var url = 'https://another-site.com/price-query?itemId=' +
-//             encodeURIComponent(request.itemId);
-//         fetch(url)
-//             .then(response => response.text())
-//             .then(text => parsePrice(text))
-//             .then(price => sendResponse(price))
-//             // alert(response);
-//         return true;  // Will respond asynchronously.
-//       }
-//     });
-// Chrome Extension with Database Backend (chrolaw), project by Matej Grahovac
-// www.matejgrahovac.de
-//
-// An extension for Chrome, that recognizes references to German laws or bills
-// and displays the quotes in an injected sidebar.
-//
-// this is the chrome extension background script which runs idle in the
-// background until its needed
-// https://developer.chrome.com/extensions/background_pages
 
 var background = {
 
